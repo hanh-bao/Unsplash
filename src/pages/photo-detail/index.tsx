@@ -26,7 +26,7 @@ const PhotoDetail = () => {
         <div className="phone flex items-baseline px-7">
           <p className="title text-xl font-bold mr-2"> Photo title: </p>
           <p className="data font-mono">
-            {results.topics[0] ? results.topics[0].title : "No title provided"}
+            {results.alt_description ?? "No title provided"}
           </p>
         </div>
         <div className="phone flex items-baseline px-7">
