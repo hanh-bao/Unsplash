@@ -77,7 +77,7 @@ const PhotoList = () => {
           ))}
         </Masonry>
 
-        <div className="mt-7">
+        <div className="my-7">
           {isFetching || isFetchingNextPage ? (
             <Loading />
           ) : !hasNextPage ? (
